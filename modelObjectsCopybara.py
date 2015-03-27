@@ -1,7 +1,9 @@
 import shutil
 import os
 
-
+'''
+A script that syncs model objects and endpoint model objects to a lightweight development project for faster build times.
+'''
 def copyDir(source, target):
 
     print "Copying directory:"
